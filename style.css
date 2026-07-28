@@ -259,6 +259,117 @@ body{
 .feature-card h3{
     margin-bottom:15px;
 }
+/* ==========================
+   CALL TO ACTION
+========================== */
+
+.cta{
+    width:90%;
+    max-width:1200px;
+    margin:120px auto;
+    padding:80px 50px;
+    text-align:center;
+    border-radius:30px;
+    background:linear-gradient(135deg,#101938,#18244f);
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.cta h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    color:#b8c3d8;
+    max-width:650px;
+    margin:0 auto 40px;
+    line-height:1.8;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+    width:90%;
+    max-width:1300px;
+    margin:120px auto 40px;
+    padding:50px 0;
+    border-top:1px solid rgba(255,255,255,.08);
+    text-align:center;
+}
+
+footer h2{
+    color:#6aa6ff;
+    margin-bottom:15px;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:30px 0;
+    flex-wrap:wrap;
+}
+
+.footer-links a{
+    color:#cbd5e1;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#6aa6ff;
+}
+
+.copyright{
+    color:#7b869c;
+    font-size:14px;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width: 992px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .stats{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .feature-grid{
+        grid-template-columns:1fr;
+    }
+
+    .nav-links{
+        display:none;
+    }
+
+    .navbar{
+        height:auto;
+        padding:20px 0;
+    }
+
+    .hero-left h1{
+        font-size:48px;
+    }
+
+    .hero-card{
+        width:100%;
+        max-width:420px;
+    }
+
+}
 
 .feature-card p{
     color:#cbd5e1;
